@@ -416,9 +416,15 @@ kops delete cluster --name <clustername> --state s3://<clustername>
 ```
 common commands
 
+
 kubectl run web-app --image httpd --port 80
+
 kubectl get pod
+
 kubectl api-resources
+
 vi mypod.yaml
+
 kubectl apply -f mypod.yaml 
+
 kubectl get pod
